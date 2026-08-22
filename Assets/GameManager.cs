@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
     {
         ResetGame();
 
-        var session = ArchipelagoSessionFactory.CreateSession(server.text, int.Parse(port.text));
+        session = ArchipelagoSessionFactory.CreateSession(server.text, int.Parse(port.text));
 
         LoginResult result = session.TryConnectAndLogin(GAME_NAME, slotName.text, ItemsHandlingFlags.AllItems);
 
