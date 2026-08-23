@@ -712,10 +712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6355c1e5042be364abece94a68c5ae39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorMode: 0
-  autoCenterHotSpot: 1
-  hotSpotCustom: {x: 0, y: 0}
   cursorImage: {fileID: 1375007715}
+  clickerOffset: {x: 0, y: 550, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,10 +2447,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 271940048}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000039989, y: 418}
+  m_SizeDelta: {x: 184, y: 2001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375007717
 MonoBehaviour:
@@ -2474,7 +2472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b0dc4acb1a0a8ee4597d18122a2237ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c0af240342e1ce45bbb176b778e7710, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
