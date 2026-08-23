@@ -32,12 +32,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -500.5, y: -209.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &941366158358468406
 CanvasRenderer:
@@ -67,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d859d7e56fcff174285f83a48c79e948, type: 3}
+  m_Sprite: {fileID: -6231044458718751821, guid: a89b055626890764183a12ad9808c4c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -91,3 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   itemId: 0
+  square: {fileID: -3739455970302826709, guid: d95e2b19607cf554a9b2e6e2785e8262, type: 3}
+  circle: {fileID: -6231044458718751821, guid: a89b055626890764183a12ad9808c4c0, type: 3}
+  triangle: {fileID: 9164359298635338950, guid: 3a93c5580cab5814287d025bea942f5c, type: 3}
+  pentagon: {fileID: 6961262827992784269, guid: 1532cc34324cf0444b371b44a1168ccc, type: 3}

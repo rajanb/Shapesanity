@@ -17,12 +17,16 @@ public class Shape : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public Type type;
     public long itemId;
+    public Sprite square;
+    public Sprite circle;
+    public Sprite triangle;
+    public Sprite pentagon;
     public void Start()
     {
-        if (type == Type.square) GetComponent<Image>().color = Color.red;
-        if (type == Type.circle) GetComponent<Image>().color = Color.blue;
-        if (type == Type.triangle) GetComponent<Image>().color = Color.green;
-        if (type == Type.pentagon) GetComponent<Image>().color = Color.magenta;
+        if (type == Type.square) GetComponent<Image>().sprite = square;
+        if (type == Type.circle) GetComponent<Image>().sprite = circle;
+        if (type == Type.triangle) GetComponent<Image>().sprite = triangle;
+        if (type == Type.pentagon) GetComponent<Image>().sprite = pentagon;
     }
 
     public void OnDrag(PointerEventData data)

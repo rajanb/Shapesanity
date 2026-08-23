@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f3f6b4f4fd214434983615c9a2404ec5
+guid: 79cb3f169ed5edd4a9c1491858f9e8d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2902970233842926932
-    second: squid_0
+      213: 3500236542858301202
+    second: gibby_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: squid_0
+      name: gibby_0
       rect:
         serializedVersion: 2
         x: 27
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caa7242f3f396b7d0800000000000000
-      internalID: -2902970233842926932
+      spriteID: 21f09e63796539030800000000000000
+      internalID: 3500236542858301202
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      squid_0: -2902970233842926932
+      gibby_0: 3500236542858301202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

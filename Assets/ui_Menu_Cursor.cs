@@ -1,20 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ui_Menu_Cursor : MonoBehaviour
 {
     public GameObject cursorImage;
-    public Vector3 clickerOffset = new Vector3(0f, -300f, 0f);
+    public GameObject cursorObject;
+    public Sprite[] cursorSprite; 
 
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = false;
+       // Cursor.visible = false;
 
     }
     private void Update()
     {
-        cursorImage.transform.position = Input.mousePosition + clickerOffset;
+        cursorObject.transform.position = Input.mousePosition;
+    }
+    public void UpdateCursor(int spriteID)
+    {
+        cursorImage.GetComponent<Image>().sprite = cursorSprite[spriteID];
     }
 }
